@@ -7,8 +7,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
   <title>Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="logo">Menu</div>
+    <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/music">Music</a></li>
+        <li><a href="/form">Newsletter</a></li>
+    </ul>
+  </nav>
   <h1>Welcome to the Site</h1>
   <p>This is the main home page.</p>
 </body>
