@@ -1,0 +1,154 @@
+body {
+    margin: 10;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Pushes logo left, links right */
+    align-items: center; /* Centers items vertically */
+    background-color: #3B1C32;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    border-radius: 20px;
+}
+
+.logo {
+    color: #A64D79;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none; 
+    display: flex;
+    gap: 30px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-links a {
+    color: #b3338e;
+    text-decoration: none; 
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+
+.nav-links a:hover {
+    color: #A64D79; 
+}
+
+p{
+    color: #d8629d;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13pt;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #9e3c82;
+	cursor: default;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 8pt;
+	font-weight: 400;
+	cursor: default;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13pt;
+	font-weight: 300;
+	color: rgb(216, 98, 157);
+	cursor: default;
+}
+
+label {
+    color: #d8629d;
+}
+
+button {
+    color: #3B1C32;
+    background-color: #d8629d;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container to make the form look like a modern card */
+.form-container {
+    background-color: #3B1C32;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(216, 98, 157, 0.15); /* Subtle pink shadow */
+}
+
+.form-container h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Stack form elements vertically */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+label {
+    color: #d8629d;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Modernize text inputs */
+input {
+    padding: 12px 15px;
+    border: 1.5px solid #A64D79;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: #d8629d;
+    box-shadow: 0 0 8px rgba(216, 98, 157, 0.3);
+}
+
+/* Modernize the submit button */
+button {
+    margin-top: 15px;
+    padding: 14px;
+    background-color: #A64D79;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #d8629d;
+}
+
+button:active {
+    transform: scale(0.98);
+}

@@ -1,27 +1,27 @@
 /* Music 
 ======================================*/
 var playlist = [
-	{
-		"song"    : "House of the Rising Sun",
-		"album"   : "The Animals",
-		"artist"  : "The Animals",
-		"artwork" : "http://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Rising_sun_animals_US.jpg/220px-Rising_sun_animals_US.jpg",
-		"mp3"     : "http://retro-disko.ru/6/music/016.mp3"
-	},
-	{
-		"song"    : "Superstition",
-		"album"   : "Talking Book",
-		"artist"  : "Stevie Wonder",
-		"artwork" : "https://i.imgur.com/Py4XcBT.png",
-		"mp3"     : "http://vocaroo.com/media_command.php?media=s1WYNvqulYH9&command=download_mp3"
-	},
-	{
-		"song"    : "I Need You Back",
-		"album"   : "Premiere",
-		"artist"  : "The Noisy Freaks",
-		"artwork" : "http://i1285.photobucket.com/albums/a583/TheGreatOzz1/Hosted-Images/Noisy-Freeks-Image_zps4kilrxml.png",
-		"mp3"     : "http://kirkbyo.net/Assets/The-Noisy-Freaks.mp3"
-	}
+    {
+        "song"    : "Where There's Smoke, There's Fire",
+        "album"   : "Peaches!",
+        "artist"  : "The Black Keys",
+        "artwork" : "https://upload.wikimedia.org/wikipedia/en/6/6e/Peaches_Black_Keys.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20260207165539",
+        "mp3"     : "/static/black-keys.mp3" 
+    },
+    {
+        "song"    : "That's Really Super, Supergirl - Remastered 2001",
+        "album"   : "Skylarking",
+        "artist"  : "XTC",
+        "artwork" : "https://upload.wikimedia.org/wikipedia/en/0/0a/Xtcsl2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "mp3"     : "/static/supergirl.mp3"
+    },
+    {
+        "song"    : "The New Pollution",
+        "album"   : "Odelay",
+        "artist"  : "Beck",
+        "artwork" : "https://upload.wikimedia.org/wikipedia/en/f/f4/Odelay.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "mp3"     : "/static/new-pollution.mp3"
+    }
 ];
 
 /* General Load / Variables
